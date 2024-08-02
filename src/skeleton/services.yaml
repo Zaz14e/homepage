@@ -6,6 +6,15 @@
     - Jellyfin:
         href: https://Khalleessy.fr/
         description: Le Meilleur de tout les serveurs
+        widget:
+  type: jellyfin
+  url: khalleessy.fr
+  key: 2995fa81029e44ea968e606fb7d546bb	
+  enableBlocks: true # optional, defaults to false
+  enableNowPlaying: true # optional, defaults to true
+  enableUser: true # optional, defaults to false
+  showEpisodeNumber: true # optional, defaults to false
+  expandOneStreamToTwoRows: false # optional, defaults to true
 
 - My Second Group:
     - My Second Service:
