@@ -1,22 +1,11 @@
----
-# For configuration options and examples, please see:
-# https://gethomepage.dev/latest/configs/services
-Group A:
-    - Jellyfin:
-        href: Https://Khalleessy.fr
-        widget:
-  type: jellyfin
-  url: https://Khalleessy.fr
-  key: 2995fa81029e44ea968e606fb7d546bb	
-  enableBlocks: true # optional, defaults to false
-  enableNowPlaying: true # optional, defaults to true
-  enableUser: true # optional, defaults to false
-  showEpisodeNumber: true # optional, defaults to false
-  expandOneStreamToTwoRows: false # optional, defaults to true
-
-
-  widget:
-  type: qbittorrent
-  url: 82.66.136.101:8081
-  username: Admin
-  password: Pioneer_a07
+Streaming:
+- Jellyfin:
+    icon: jellyfin.png
+    href: https://khalleessy.fr
+    description: Les meilleurs Films au Meilleur Endroit.
+    server: localhost
+    container: Jellyfin
+    widget:
+      type: jellyfin
+      url: https://khalleessy.fr
+      key: 2995fa81029e44ea968e606fb7d546bb	
