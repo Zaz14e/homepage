@@ -11,3 +11,9 @@ widget:
   enableUser: true # optional, defaults to false
   showEpisodeNumber: true # optional, defaults to false
   expandOneStreamToTwoRows: false # optional, defaults to true
+
+  widget:
+  type: qbittorrent
+  url: 82.66.136.101:8081
+  username: Admin
+  password: Pioneer_a07
