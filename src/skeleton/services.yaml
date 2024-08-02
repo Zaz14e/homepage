@@ -1,8 +1,13 @@
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/services
+-Group A
 
-widget:
+
+Group A:
+    - Jellyfin:
+        href: Https://Khalleessy.fr
+        widget:
   type: jellyfin
   url: https://Khalleessy.fr
   key: 2995fa81029e44ea968e606fb7d546bb	
@@ -11,6 +16,7 @@ widget:
   enableUser: true # optional, defaults to false
   showEpisodeNumber: true # optional, defaults to false
   expandOneStreamToTwoRows: false # optional, defaults to true
+
 
   widget:
   type: qbittorrent
