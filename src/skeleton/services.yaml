@@ -2,17 +2,12 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/services
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Jellyfin
-
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
-
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+widget:
+  type: jellyfin
+  url: https://Khalleessy.fr
+  key: 2995fa81029e44ea968e606fb7d546bb	
+  enableBlocks: true # optional, defaults to false
+  enableNowPlaying: true # optional, defaults to true
+  enableUser: true # optional, defaults to false
+  showEpisodeNumber: true # optional, defaults to false
+  expandOneStreamToTwoRows: false # optional, defaults to true
